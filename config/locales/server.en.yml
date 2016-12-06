@@ -1,0 +1,3 @@
+en:
+  site_settings:
+    docson_enabled: "Enable the discourse-docson plugin. If you change this, you must rebake all posts with: \"rake posts:rebake\"."
