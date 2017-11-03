@@ -2,3 +2,6 @@ plugins:
   docson_enabled:
     default: true
     client: true
+  docson_script:
+    default: ""
+    client: true

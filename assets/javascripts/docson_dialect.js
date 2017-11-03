@@ -4,7 +4,9 @@
 
     function add_docson_link (text) {
         text = text || "";
-        return text.replace(/\.json\b/ig, ".json XXXX");
+        return text.replace(/(https?:\/\/\S+\/\S+\.json)\b/ig, function (match, p1) {
+              return p1 + ' YY<script src="' + this.siteSettings.docson_script +'" data-schema="' + p1 + '"></script>';
+            });
     }
 
     Discourse.Dialect.addPreProcessor(function(text) {

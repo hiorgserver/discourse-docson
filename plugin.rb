@@ -1,6 +1,6 @@
 # name: docson
 # about: Adds a docson widget to every .json - Link
-# version: 0.0.3
+# version: 0.0.4
 # authors: Christoph Blechschmitt, HiOrg Server GmbH
 # url: https://github.com/hiorgserver/discourse-docson/
 
